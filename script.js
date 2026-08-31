@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
     
-    // 1. DOM INTERACTION: Mobile Navigation Toggle
     const menuToggle = document.querySelector('#menu-toggle');
     const mainNav = document.querySelector('#main-nav');
 
@@ -20,7 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // 2. FORM VALIDATION: Prevent URL submission & display errors
     const form = document.querySelector('#contact-form');
 
     if (form) {
@@ -96,7 +94,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // 3. API FETCH: Live GitHub Data
     const githubContainer = document.querySelector('#github-card');
 
     if (githubContainer) {
